@@ -28,6 +28,13 @@ public class Ejemplo051 {
 
                 System.out.printf("Resultado %d\n", resultado);
                 bandera = false;
+                
+                // ESTE PROGRAMA NOS PIDE QUE INGRESEMOS DOS VALORES DE TIPO ENTERO
+                // PERO SI EN ALGUN CASO NO LO HACEMOS INGRESAMOS A UN CATCH, EL
+                // CUAL NOS VA A PRESENTAR EL ERROR QUE ESTAMOS COMETIENDO, Y COMO
+                // SE ENCUENTRA DENTRO DE UN CICLO REPETITIVO, NO VAMOS A SALIR
+                // HASTA INGRESAR LOS DATOS CORRECTOS
+                
             } catch (InputMismatchException inputMismatchException) {
 
                 System.out.printf("Existe un error de tipo %s\n",
