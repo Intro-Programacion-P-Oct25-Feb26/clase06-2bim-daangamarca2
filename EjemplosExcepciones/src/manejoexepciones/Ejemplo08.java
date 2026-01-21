@@ -26,7 +26,8 @@ public class Ejemplo08 {
             System.out.printf("Resultado %.2f", resultado2);
         }
         catch(Exception e){
-            
+            // EL EXCEPTION SE ENCARGA DE CAPTURAR CUALQUIER ERROR, PUES ES EL
+            // ENCARGADO DE ABARCAR TODOS LOS PROBLEMAS EN UNO SOLO
             System.out.printf(" Lo sentimos hay un error de tipo %s\n", e);
         
         }
