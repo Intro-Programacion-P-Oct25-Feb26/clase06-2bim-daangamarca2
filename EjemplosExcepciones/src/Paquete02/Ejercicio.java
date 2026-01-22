@@ -7,15 +7,10 @@ package Paquete02;
 import java.util.InputMismatchException;
 import java.util.Locale;
 import java.util.Scanner;
-
 /**
  *
  * @author A S U S A16
  */
-import java.util.InputMismatchException;
-import java.util.Locale;
-import java.util.Scanner;
-
 public class Ejercicio {
 
     public static void main(String[] args) {
@@ -39,7 +34,7 @@ public class Ejercicio {
                 if (valor > 0 && valor % 2 == 0) {
                     bandera = false;
                 } else {
-                    throw new Exception ("Valor ingresado es invalido");
+                    throw new Exception("Valor ingresado es invalido");
                 }
             } catch (Exception e) {
                 System.out.printf("Existe un error de tipo: %s\n", e);
